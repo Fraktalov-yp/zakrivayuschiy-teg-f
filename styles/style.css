@@ -70,10 +70,6 @@
 }
 .card__image-container {
   position: relative;
-  overflow: hidden;
-}
-.card__image-container {
-  position: relative;
   width: 100%;
   aspect-ratio: 1 / 1;
   overflow: hidden;
