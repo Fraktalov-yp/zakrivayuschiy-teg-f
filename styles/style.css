@@ -170,10 +170,6 @@
   transition: border-color 0.3s ease;
   cursor: pointer;
 }
-.card__icon-button .like-icon {
-  width: 27px;
-  height: 24px;
-}
 .card__icon-button:focus {
   outline: none;
 }
@@ -271,10 +267,12 @@
     margin-block: 100px 100px;
   }
   .header__logo {
-    font-size: clamp(28px, 9.6vw, 36px);
+    font-size: 49px;
+    line-height: 1;
   }
   .header__title {
     font-size: 14px;
+    line-height: 1;
   }
   .card__title {
     padding-block: 4px;
